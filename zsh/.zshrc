@@ -1,6 +1,5 @@
 # ~/.zshrc
 source ~/.zsh_plugins.sh
-source ~/.purepower
 
 export HISTFILE=~/.zsh_history
 export SAVEHIST=100000
