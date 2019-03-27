@@ -17,6 +17,11 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# Key bindings
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
+
 export PATH=${PATH}:${HOME}/.cargo/bin
 export PATH=${PATH}:${HOME}/go/bin
 
