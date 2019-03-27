@@ -1,5 +1,5 @@
 # ~/.zshrc
-source ~/.zsh_plugins.sh
+source ~/.dotfiles/zsh/.zsh_plugins.sh
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
@@ -19,3 +19,5 @@ compinit
 
 export PATH=${PATH}:${HOME}/.cargo/bin
 export PATH=${PATH}:${HOME}/go/bin
+
+# antibody bundle < ~/.dotfiles/zsh/.zsh_plugins.txt > ~/.dotfiles/zsh/.zsh_plugins.sh
