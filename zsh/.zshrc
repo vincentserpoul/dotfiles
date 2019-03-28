@@ -1,6 +1,8 @@
 # ~/.zshrc
 source ~/.dotfiles/zsh/.zsh_plugins.sh
 
+source ~/.dotfiles/zsh/.alias
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
