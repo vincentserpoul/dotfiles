@@ -23,6 +23,8 @@ compinit
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
+# go install
+export PATH=${PATH}:/usr/local/go/bin
 
 export PATH=${PATH}:${HOME}/.cargo/bin
 export PATH=${PATH}:${HOME}/go/bin
