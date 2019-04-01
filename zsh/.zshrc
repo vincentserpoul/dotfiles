@@ -26,6 +26,9 @@ bindkey "^[[1;5D" backward-word
 # go install
 export PATH=${PATH}:/usr/local/go/bin
 
+# gcloud tools
+export PATH=${PATH}::${HOME}/google-cloud-sdk/bin
+
 export PATH=${PATH}:${HOME}/.cargo/bin
 export PATH=${PATH}:${HOME}/go/bin
 
