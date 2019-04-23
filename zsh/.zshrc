@@ -32,4 +32,6 @@ export PATH=${PATH}::${HOME}/google-cloud-sdk/bin
 export PATH=${PATH}:${HOME}/.cargo/bin
 export PATH=${PATH}:${HOME}/go/bin
 
+export PATH=${PATH}:${HOME}/.local/bin
+
 # antibody bundle < ~/.dotfiles/zsh/.zsh_plugins.txt > ~/.dotfiles/zsh/.zsh_plugins.sh
