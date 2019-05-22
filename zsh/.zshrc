@@ -34,4 +34,7 @@ export PATH=${PATH}:${HOME}/go/bin
 
 export PATH=${PATH}:${HOME}/.local/bin
 
+# Edits
+export VISUAL="nvim"
+
 # antibody bundle < ~/.dotfiles/zsh/.zsh_plugins.txt > ~/.dotfiles/zsh/.zsh_plugins.sh
