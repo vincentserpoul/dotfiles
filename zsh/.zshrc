@@ -7,7 +7,7 @@ source ~/.dotfiles/zsh/.alias
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
 SAVEHIST=100000
-setopt appendhistory autocd extendedglob nomatch notify
+setopt appendhistory autocd extendedglob nomatch notify HIST_IGNORE_SPACE
 unsetopt beep
 bindkey -e
 # End of lines configured by zsh-newuser-install
